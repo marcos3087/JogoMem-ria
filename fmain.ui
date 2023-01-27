@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fmain</class>
+ <widget class="QWidget" name="fmain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>846</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Jogo da memória Fair Trade</string>
+  </property>
+  <widget class="QPushButton" name="btReset">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>10</y>
+     <width>44</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Reiniciar jogo</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:25</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/restart.png</normaloff>Img/restart.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_4">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_5">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_6">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>60</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_8">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_9">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_10">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_11">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_12">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>240</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_14">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_15">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_16">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_17">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_18">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>420</y>
+     <width>121</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Img/baralho.png</normaloff>Img/baralho.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>151</width>
+     <height>171</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
